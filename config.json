@@ -1,0 +1,12 @@
+{
+  "min_dollars": 500000,
+  "seek_seconds":1500,
+  "notify_delay": 15,
+  "api_key": "get yours at https://whale-alert.io/",
+  "redis": {
+    "host": "localhost",
+    "port": "6379",
+    "db": 0
+  }
+
+}
