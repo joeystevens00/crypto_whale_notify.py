@@ -1,6 +1,11 @@
 # crypto_whale_notify.py  
 notify2 whale-alert.io alerts. Configure config.json or just set the environment variable WHALE_ALERT_API_KEY with your API KEY and use default values. 
-Uses redis to cache notification history and prevent duplicate alerts
+Uses redis to cache notification history and prevent duplicate alerts. 
+
+## Install in cron 
+```
+*/2 * * * * python3 /path/to/crypto_whale_notify.pl
+```
 
 ## requirements
 redis, notify2
